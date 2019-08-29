@@ -24,6 +24,5 @@ def computepay(h,r):
     elif h > 40.0:
         return hrs_40_rate + otp_bonus
 
-
 p = computepay(h,r)
 print(p)
